@@ -19,3 +19,6 @@ data/*.csv
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Generated Kaggle submission files
+submissions/*.csv
