@@ -1,3 +1,4 @@
 Experiment,Model,Hypothesis,Change,Validation_Accuracy,Kaggle_Leaderboard_Score,Decision,Notes
 1,Logistic Regression Baseline,"A simple linear classification model will establish a performance benchmark.","Initial feature engineering with median imputation, one-hot encoding and standard scaling.",0.7867,,"Baseline","First model; 78.67% validation accuracy."
 2,Random Forest,"A tree-based model can capture nonlinear relationships and feature interactions.","Used RandomForestClassifier with 200 trees and random_state=42.",0.8028,,"Promising","Improved validation accuracy by 1.61 percentage points over baseline."
+3,Gradient Boosting,"Boosting may improve predictive performance by learning from previous tree errors.","Used GradientBoostingClassifier with 150 estimators, learning_rate=0.1 and max_depth=3.",0.8039,,"Best so far","Highest validation accuracy so far at 80.39%."
