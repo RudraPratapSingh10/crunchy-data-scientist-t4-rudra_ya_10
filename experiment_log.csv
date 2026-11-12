@@ -1,0 +1,2 @@
+Experiment,Model,Hypothesis,Change,Validation_Accuracy,Kaggle_Leaderboard_Score,Decision,Notes
+1,Logistic Regression Baseline,"A simple linear classification model will establish a performance benchmark.","Initial feature engineering with median imputation, one-hot encoding and standard scaling.",0.7867,,"Baseline","First model; 78.67% validation accuracy."
